@@ -1,0 +1,7 @@
+name = "deeplx"
+main = "src/index.js"
+compatibility_date = "2024-02-22"
+node_compat = true
+
+[vars]
+#TOKEN = "test"
