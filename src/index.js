@@ -14,7 +14,7 @@ const app = new Hono();
 
 app.get('/', (c) => c.json({
 	code: 200,
-	message: 'DeepL Free API, Developed by sjlleo and missuo. Go to /translate with POST. http://github.com/OwO-Network/DeepLX'
+	message: 'DeepL Free API, Developed by sjlleo and missuo. Go to /translate with POST. https://github.com/Adoream/deeplx-for-cloudflare'
 }));
 
 app.post('/translate', async (c) => {
