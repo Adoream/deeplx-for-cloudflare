@@ -51,7 +51,6 @@ const headers = {
 };
 
 export const translate = async (source_lang, target_lang, translate_text, config) => {
-	console.log(translate_text)
 	if (translate_text === '') {
 		return {
 			code: 404,
